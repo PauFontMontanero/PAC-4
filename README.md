@@ -65,19 +65,21 @@ A simple yet powerful calculator built with WPF that supports basic arithmetic o
 
 
 ## 💡 Examples
-
-- Basic Calculation
-- CopyInput: 5 + 3 =
-- Output: 8
-
-- Chained Operations
-- CopyInput: 5 + 3 * 2 =
-- Output: 11
-
-- Error Handling
-- CopyInput: 5 / 0 =
-- Output: Error
-
+```bash
+Basic Calculation
+CopyInput: 5 + 3 =
+Output: 8
+```
+```bash
+Chained Operations
+CopyInput: 5 + 3 * 2 =
+Output: 11
+```
+```bash
+Error Handling
+CopyInput: 5 / 0 =
+Output: Error
+```
 
 ## 🔧 Technical Implementation
 - The calculator is implemented using several key components:
