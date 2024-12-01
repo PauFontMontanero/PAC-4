@@ -33,99 +33,99 @@ A simple yet powerful calculator built with WPF that supports basic arithmetic o
 
 ## 📥 Installation Guide
 
-Clone the repository:
-Copygit clone [repository-url]
+- Clone the repository:
+- Copygit clone [repository-url]
 
-Open the solution file (PAC4-Calculadora.sln) in Visual Studio 2022
-Build the solution (Ctrl + Shift + B)
-Run the application (F5)
+- Open the solution file (PAC4-Calculadora.sln) in Visual Studio 2022
+- Build the solution (Ctrl + Shift + B)
+- Run the application (F5)
 
 ## 📖 Usage Guide
 
 # Starting the Calculator
 
-Launch the application from Visual Studio or the compiled executable
-The calculator window will appear with a clean display
+- Launch the application from Visual Studio or the compiled executable
+- The calculator window will appear with a clean display
 
 
 # Performing Calculations
 
-Enter numbers using the on-screen buttons or your keyboard's NumPad
-Use operation buttons (+, -, *, /) to perform calculations
-Press '=' or Enter to see the result
-Press 'C' to clear the display and start over
+- Enter numbers using the on-screen buttons or your keyboard's NumPad
+- Use operation buttons (+, -, *, /) to perform calculations
+- Press '=' or Enter to see the result
+- Press 'C' to clear the display and start over
 
 
 # Chained Operations
 
-You can perform multiple operations in sequence
-Operations follow standard mathematical precedence
-Example: 5 + 3 * 2 will correctly calculate 3 * 2 first
+- You can perform multiple operations in sequence
+- Operations follow standard mathematical precedence
+- Example: 5 + 3 * 2 will correctly calculate 3 * 2 first
 
 
 
 ## 💡 Examples
 
-Basic Calculation
-CopyInput: 5 + 3 =
-Output: 8
+- Basic Calculation
+- CopyInput: 5 + 3 =
+- Output: 8
 
-Chained Operations
-CopyInput: 5 + 3 * 2 =
-Output: 11
+- Chained Operations
+- CopyInput: 5 + 3 * 2 =
+- Output: 11
 
-Error Handling
-CopyInput: 5 / 0 =
-Output: Error
+- Error Handling
+- CopyInput: 5 / 0 =
+- Output: Error
 
 
 ## 🔧 Technical Implementation
-The calculator is implemented using several key components:
+- The calculator is implemented using several key components:
 
 # User Interface
 
-Built using WPF (Windows Presentation Foundation)
-Responsive grid layout for buttons
-Real-time display updates
+- Built using WPF (Windows Presentation Foundation)
+- Responsive grid layout for buttons
+- Real-time display updates
 
 
 # Core Features
 
-Operation handling through ButcherOperation() method
-Operator precedence managed in Calculate() method
-Error handling for division by zero and invalid operations
+- Operation handling through ButcherOperation() method
+- Operator precedence managed in Calculate() method
+- Error handling for division by zero and invalid operations
 
 
 # Key Classes
 
-MainWindow: Main UI and logic implementation
-Event handlers for button clicks and keyboard input
-Helper methods for operation parsing and calculation
+- MainWindow: Main UI and logic implementation
+- Event handlers for button clicks and keyboard input
+- Helper methods for operation parsing and calculation
 
 
 # Input Handling
 
-Support for both mouse clicks and NumPad input
-Input validation to prevent invalid operations
-Real-time display updates
+- Support for both mouse clicks and NumPad input
+- Input validation to prevent invalid operations
+- Real-time display updates
 
 
 
 ## 📝 License and Author
 
-Author: Pau Font Montanero
-Course: M7 - Interface Development
-Version: 1.0
-Date: November 2024
-License: MIT License
+- Author: Pau Font Montanero
+- Course: M7 - Interface Development
+- Version: 1.0
+- Date: November 2024
+- License: MIT License
 
 ## 🎯 Conclusions
-This calculator project demonstrates the implementation of a functional WPF application with:
+- This calculator project demonstrates the implementation of a functional WPF application with:
 
-Clean and maintainable code structure
-Proper error handling
-User-friendly interface
-Support for complex mathematical operations
-Comprehensive documentation
+- Clean and maintainable code structure
+- Proper error handling
+- User-friendly interface
+- Support for complex mathematical operations
+- Comprehensive documentation
 
-The project successfully meets all requirements while providing a solid foundation for future enhancements and modifications.
+- The project successfully meets all requirements while providing a solid foundation for future enhancements and modifications.
